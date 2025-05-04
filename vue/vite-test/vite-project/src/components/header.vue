@@ -31,20 +31,20 @@ const toggleMenu = () => {
 </template>
 
 
-<style scoped>
+<style>
 header{
+    flex-shrink: 0;
     position: sticky;
     height: 75px;
     background-color: #222222;
     width: 100vw;
     display: flex;
-    align-content: center;
     justify-content: space-around;
     align-items: center;
 }
 .header_left{
     width: 111px;
-    height: 38px;
+    height: 100%;
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -52,7 +52,7 @@ header{
 }
 .header_right{
     width: 169px;
-    height: 38px;
+    height: 100%;
     display: flex;
     align-content: center;
     justify-content: space-between;

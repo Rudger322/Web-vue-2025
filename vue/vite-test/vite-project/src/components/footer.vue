@@ -26,6 +26,7 @@
 
 <style scoped>
 footer{
+    flex-shrink: 0;
     height: 79px;
     background-color: #222222;
     width: 100vw;

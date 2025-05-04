@@ -18,6 +18,6 @@ export default { components: { Header, Footer } }
 
 <style scoped>
 .layout { display: flex; flex-direction: column; height: 100vh; }
-.content { display: flex; flex: 1; }
-.page { flex: 1; }
+.content { display: flex; flex: 1;}
+.page { flex: 1;}
 </style>
