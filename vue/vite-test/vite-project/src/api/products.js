@@ -5,3 +5,4 @@ export async function getAllProducts() {
     }
     return await res.json()
   }
+export default getAllProducts();

@@ -4,8 +4,14 @@ import Footer from './components/footer.vue'
 </script>
 
 <template>
-  <router-view />
+  <router-view :key="$route.fullPath"/>
 </template>
 
-<style scoped>
+<style>
+.app{
+  width: 100vw;
+}
+body{
+  width: 100vw;
+}
 </style>
